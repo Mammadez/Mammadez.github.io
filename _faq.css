@@ -1,0 +1,114 @@
+/* start faq section  */
+
+#faq {
+  background: url(../img/faqs-hero.jpg) no-repeat center;
+  background-size: cover;
+  /* padding: 30px; */
+}
+.faq-head-title h5 i {
+  font-size: 24px;
+}
+.faq-head-title h5 {
+  font-size: 26px;
+  color: black;
+}
+
+/* rightside */
+.faq-rightside {
+  /* padding: 30px 0 20px 0; */
+  margin: 0 400px;
+  width: 90%;
+  Max-width: 500px;
+}
+.faq-rightside ul {
+  background-color: rgb(189, 189, 189);
+  color: #fff;
+  box-shadow: 1px 1px 1px rgb(101, 101, 101);
+  padding: 22px;
+  width: fit-content;
+  /* padding: 6px 25px 15px 0; */
+}
+.faq-rightside ul li {
+  margin-bottom: 12px;
+}
+.faq-rightside ul li span {
+  font-size: 26px;
+}
+.faq-rightside ul span:first-child {
+  /* padding-left: 10px; */
+  vertical-align: -12px;
+  font-size: 45px;
+}
+.faq-rightside ul span:nth-child(2) {
+  font-family: Arial Narrow;
+}
+
+/* leftside */
+.faq-leftside {
+  /* padding: 30px 0 20px 0; */
+  margin: 0 500px;
+  Max-width: 400px;
+  width: 90%;
+}
+.faq-leftside .tabs {
+  /* background-color: black; */
+  box-shadow: 1px 1px 1px 1px rgba(178, 178, 178, 0.574);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.faq-leftside .tabs .tab {
+  background-color: cadetblue;
+  color: cadetblue;
+  overflow: hidden;
+}
+.faq-leftside .tabs .tab input {
+  display: none;
+}
+
+.faq-leftside .tabs .tab .tab-label {
+  color: aquamarine;
+  font-size: 26px;
+  font-family: Arial Narrow;
+  width: 100%;
+  /* height: 2px; */
+  padding: 0px 10px 0 0;
+  margin-top:2px;
+  /* vertical-align: -2px ; */
+  cursor: pointer;
+  overflow: hidden;
+  display: block;
+}
+.faq-leftside .tabs .tab .tab-content {
+  background-color: rgba(194, 194, 194, 0.49);
+  color: rgba(59, 103, 186, 0.838);
+  border-bottom:  1px solid rgba(130, 130, 130, 0.3);
+  font-size: 20px;
+  font-family: vazir;
+  max-height: 0;
+  /* display: none; */
+  padding: 0 16px;
+  transition: 0.9s ease;
+}
+.faq-leftside .tabs .tab .tab-label:hover {
+  opacity: 80%;
+}
+.faq-leftside .tabs .tab .tab-label::after {
+  content: "\276f";
+  width: 20px;
+  height: 28px;
+  text-align: center;
+  padding: 0 0 10px 12px;
+  margin: 2px 0 0 1px;
+  /* padding: 4px; */
+  float: left;
+  transition: 0.5s;
+}
+.faq-leftside .tabs .tab input:checked ~ .tab-content {
+  max-height: 200px;
+  /* display: block; */
+}
+.faq-leftside .tabs .tab input:checked + .tab-label::after {
+  transform: rotate(-90deg);
+}
+
+/* end  faq section  */

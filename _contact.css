@@ -1,0 +1,57 @@
+/* contact style */
+
+.container-fluid-custom
+{
+  background-color: #06363B!important;
+
+}
+.container-fluid-custom .contact {
+  font-size: 20px;
+  height: 57px;
+}
+.container-fluid-custom .contact i {
+  color: black;
+  padding-right: 20px;
+  vertical-align: -14px;
+}
+.container-fluid-custom .contact span {
+  color: #fff;
+  margin: 6px;
+  vertical-align: 2px;
+}
+
+/* Social Media style */
+
+.container-fluid-custom .social-meida {
+  direction: ltr;
+  font-size: 24px;
+  padding-left: 20px;
+}
+.container-fluid-custom .social-meida i {
+  vertical-align: -14px;
+  padding: 15px 8px;
+}
+.container-fluid-custom .social-meida i:hover{
+ opacity: 50%;
+}
+
+/* social Media original colors */
+.bxl-telegram{
+  color: rgb(2, 149, 223);
+}
+.bxl-instagram-alt{
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.bxl-twitter{
+  color: 	#2ba6f1 ;
+}
+.bxl-youtube{
+  color:  #e20202;
+}
+.bxl-linkedin{
+  color: #0e76a8;
+}

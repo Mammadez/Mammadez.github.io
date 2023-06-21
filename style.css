@@ -1,0 +1,133 @@
+@import url(./_contact.css);
+@import url(./_nav.css);
+@import url(./_wallpaper.css);
+@import url(./_cards.css);
+@import url(./_aboutus.css);
+@import url(./_team.css);
+@import url(./_stats.css);
+@import url(./_article.css);
+@import url(./_faq.css);
+@import url(./_footer.css);
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+/* @import url("https://fonts.cdnfonts.com/css/times-new-roman");
+@import url("https://fonts.cdnfonts.com/css/copperplate");
+@import url("https://fonts.cdnfonts.com/css/simple-brush-script"); */
+@import url(//db.onlinewebfonts.com/c/7c6661efce01eac269383bac79303c1b?family=Arial+Narrow);
+@font-face {
+  font-family: Vazir;
+  src: url(../Fonts/Vazir-Code-Hack.woff) format("woff"),
+    url(../Fonts/Vazir-Code-Hack.woff2) format("woff2")
+      url(../Fonts/Vazir-Code.eot) format("eot");
+  font-weight: 10px;
+  font-style: italic;
+}
+@font-face {
+  font-family: Vazir-bold;
+  src: url(../Fonts/Vazir-Bold.eot) format("eot"),
+    url(../Fonts/Vazir-Bold.woff2) format("woff2"),
+    url(../Fonts/Vazir-Bold.woff) format("woff"),
+    url(../Fonts/Vazir-Bold.ttf) format("ttf");
+  font-weight: bold;
+  font-style: bolder;
+}
+
+@font-face {
+  font-family: iransans;
+  src: url(../fonts/IRANSansWeb.eot) format("eot");
+}
+@font-face {
+  font-family: mina;
+  src: url(../fonts/Mina-Regular.ttf);
+}
+@font-face {
+  font-family: mina-bold;
+  src: url(../fonts/Mina-Bold.ttf);
+}
+@font-face {
+  font-family: nasim-bold;
+  src: url(../fonts/B\ Nasim\ Bold_0.ttf);
+}
+@font-face {
+  font-family: aria;
+  src: url(../fonts/B\ Aria_YasDL.com.ttf);
+}
+@font-face {
+  font-family: cheshmeh;
+  src: url(../fonts/B\ Cheshmeh_YasDL.com.ttf);
+}
+@font-face {
+  font-family: koodak;
+  src: url(../fonts/B\ Koodak\ Bold_YasDL.com.ttf);
+}
+@font-face {
+  font-family: mahsa;
+  src: url(../fonts/B\ Mahsa_YasDL.com.ttf);
+}
+@font-face {
+  font-family: nazanin;
+  src: url(../fonts/B\ Nazanin_YasDL.com.ttf);
+}
+@font-face {
+  font-family: "rubik", sans-serif;
+  src: url();
+}
+@font-face {
+  font-family: "lora", serif;
+  src: url();
+}
+@font-face {
+  font-family: "raleway", sans-serif;
+  src: url();
+}
+@font-face {
+  font-family: "playfair", serif;
+  src: url();
+}
+@font-face {
+  font-family: "times new roman", sans-serif;
+  src: url();
+}
+@font-face {
+  font-family: "copperplate", sans-serif;
+  src: url();
+}
+@font-face {
+  font-family: "simple brush", sans-serif;
+  src: url();
+}
+@font-face {
+  font-family: "Arial Narrow";
+  src: url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot");
+  src: url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.svg#Arial Narrow")
+      format("svg");
+}
+
+/* sticky Movement keys */
+.Movement {
+  position: fixed;
+  background-color: #06363B;
+  color: rgba(243, 243, 243, 0.635);
+  border-radius: 15px;
+  width: fit-content;
+  line-height: 35px;
+  padding: 0 14px;
+  bottom:1px;
+  right: 48%;
+  z-index: 200;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.Movement i{
+  color: rgba(250, 235, 215, 0.635);
+}

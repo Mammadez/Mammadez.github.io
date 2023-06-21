@@ -1,0 +1,60 @@
+/* start Navbar section*/
+.active {
+  border-bottom: 1px solid maroon;
+}
+.navbar {
+  background-color: black;
+position: sticky;
+top: 0;
+z-index: 999;
+}
+.navbar a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(85, 136, 136);
+  font-size: 19px;
+  padding: 0px 16px;
+}
+.navbar a:hover {
+  border-bottom: 1px solid maroon;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+
+  .navbar a.Menu-icon {
+    display: inline;
+    float: left;
+  }
+
+  .navbar .Mobile-responsive {
+    position: relative;
+  }
+  .navbar.Mobile-responsive a.Menu-icon {
+    position: absolute;
+    top: 57px;
+    left: 0px;
+  }
+  .navbar.Mobile-responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+    border-bottom: none;
+  }
+  /* .navbar.Mobile-responsive a:last-child:hover{
+    color: aqua;
+  }
+  .navbar.Mobile-responsive a:first-child:hover{
+    color: aqua;
+  } */
+  .navbar.Mobile-responsive .Menu-hover :not(:first-child, :last-child):hover {
+    color: rgb(7, 55, 100);
+  }
+  .navbar.Mobile-responsive .Main-icon:hover,
+  .Menu-icon:hover {
+    color: aqua;
+  }
+}
+/* end Navbar section*/

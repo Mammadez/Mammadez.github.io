@@ -1,0 +1,26 @@
+/* start stats section */
+#stats .row{
+    background-color:rgba(0, 0, 0, 0.294);
+    /* box-shadow: 20px 20px 20px rgb(80, 73, 34); */
+height:100% ;
+}
+
+.stats-card {
+  text-align: center;
+  font-size: 25px;
+color: antiquewhite;
+}
+.stats-card .card-footer p{
+    padding-bottom:20px ;
+    font-family: nazanin;
+    font-size:30px ;
+}
+.stats-card .card-header {
+font-size: 35px;
+    padding-top: 12px;
+/* vertical-align: 10px; */
+}
+.stats-card .card-body{
+padding-top: 10px;
+}
+/* end  stats section */
